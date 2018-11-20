@@ -1,1 +1,1 @@
-ng5-pokemon-app
+Petit projet de formation sur Angular

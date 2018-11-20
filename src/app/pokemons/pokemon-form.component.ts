@@ -10,7 +10,7 @@ import { Pokemon } from './pokemon';
 export class PokemonFormComponent implements OnInit {
 
 	@Input() pokemon: Pokemon; // propriété d'entrée du composant
-	types: Array<string>; // types disponibles pour un pokémon : 'Eau', 'Feu', etc ...
+	types: Array<string>; 
 	constructor(
 		private pokemonsService: PokemonsService,
 		private router: Router) { }

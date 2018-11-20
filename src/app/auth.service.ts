@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 // RxJS 6
 import { Observable} from 'rxjs/Observable';
 import { tap, delay } from 'rxjs/operators';
-import { of } from 'rxjs/Observable/of';
+import { of } from 'rxjs';
 
 @Injectable()
 export class AuthService {
@@ -10,7 +10,7 @@ export class AuthService {
 	redirectUrl: string; // où rediriger l'utilisateur après l'authentification ?
 	// Une méthode de connexion
 	login(name: string, password: string): Observable<boolean> {
-		// Faites votre appel à un service d'authentification...
+		//TODO utiliser vrai service d'auth
 		let isLoggedIn = (name === 'pikachu' && password === 'pikachu');
 
 		return of(true).pipe(

@@ -6,7 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { catchError, map, tap } from 'rxjs/operators';
 
-import { of } from 'rxjs/observable/of'
+import { of } from 'rxjs'
 
 @Injectable()
 export class PokemonsService {

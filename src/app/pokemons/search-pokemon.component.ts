@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
-import { Observable} from 'rxjs/Observable';
+import { Observable } from 'rxjs/Observable';
 
-import { of } from 'rxjs/observable/of'
+import { of } from "rxjs";
 
 import { PokemonsService } from './pokemons.service';
 import { Pokemon } from './pokemon';
-import { Subject } from 'rxjs/Subject';
+import { Subject } from 'rxjs';
  
 @Component({
 	selector: 'pokemon-search',

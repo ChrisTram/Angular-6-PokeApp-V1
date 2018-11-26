@@ -9,7 +9,7 @@
       },
   
       map: {
-        app: 'dist',
+        app: 'dist/app', //app when online
         '@angular/core': 'npm:@angular/core@6.0.3/bundles/core.umd.min.js',
         '@angular/common': 'npm:@angular/common@6.0.3/bundles/common.umd.min.js',
         '@angular/compiler': 'npm:@angular/compiler@6.0.3/bundles/compiler.umd.min.js',
